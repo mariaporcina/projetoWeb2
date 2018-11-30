@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <!--  Scripts-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/geral.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/main.js"></script>
+
+
+  <title>SERQ</title>
+  <style>
+  #logo
+  {
+    height: 3em; 
+    vertical-align: -10px;   
+  }
+
+  #logo-UTFPR
+  {
+    height: 2.5em;
+    border-left: 5px;
+    vertical-align: -10px;  
+  }
+
+  #since
+  {
+    text-align: center;
+    border-right: 5px;
+  }
+  #div-since
+  {
+    text-align: center;
+  }
+
+  #login-singup{
+   padding-left: 30px;  	
+ }
+</style>  
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body onload="carregarFatos()">
+  <nav class="white" role="navigation" >
+    <div class="nav-wrapper container" id="menu-topo">
+      <a id="logo-container" href="../../index.html" class="brand-logo"><img id="logo" src="../../resources/logo/SERQ.png" alt="logoManeiro"></a>
+
+      <ul class="right hide-on-med-and-down" id="login-singup">
+      	<li><a href="../../abas-menu/log-in/login.html">Login</a></li>
+        <li><a href="../../abas-menu/sign-up/sign-up.html">Cadastre-se</a></li>
+      </ul>
+
+      <ul class="right hide-on-med-and-down">
+       <li><a href="../../index.html">Home</a></li>        
+     
+       <li><a href="">Sobre nós</a></li>
+     
+       <li><a href="../avalie-nos/avalie-nos.html">Avalie-nos</a></li>
+     </ul>
+
+     <ul id="nav-mobile" class="sidenav">
+       <li><a href="../../index.html">Home</a></li>
+       <li><a href="../../abas-menu/log-in/login.html">Login</a></li>
+       <li><a href="../../abas-menu/sign-up/sign-up.html">Cadastre-se</a></li>
+      
+       <li><a href="#">Sobre nós</a></li>
+       
+       <li><a href="../avalie-nos/avalie-nos.html">Avalie-nos</a></li>
+     </ul>
+     <a href="" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+   </div>
+
+
+ </nav>
+
+ <div id="index-banner" class="parallax-container">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <br><br>
+      <h1 class="header center text-lighten-2" style="color:lime">A equipe</h1>
+      <div class="row center">
+        <h5 class="header col s12 " style="color:lime; font-size: 40px;">Tecnólogos e Tecnológicos...</h5>
+      </div>
+      <div class="row center">
+      </div>
+      <br><br>
+    </div>
+  </div>
+  <div class="parallax"><img id="img-parallax" src="../../resources/Fundos/Lander2.JPG" alt="Fundo Lander"></div>
+</div>
+
+
+<div class="container">
+  <div class="section">
+
+    <!--   Icon Section   -->
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center icone-img"><img src="../../resources/Fundos/Lander2.jpg" alt=""></h2>
+          <h2 class="center green-text icone"><i class="material-icons">code</i></h2>
+          <h5 class="center">Lander Wilker</h5>
+
+          <p class="light">Progamador - Aluno do 2° Período do Curso de Sistemas para Internet na UTFPR-Universidade Federal do Paraná - Câmpus Guarapuava. Com 18 anos, nativo de Uberlândia-Minas Gerais lida com as competências do Desenvolvimento em Java.</p>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center green-text"><i class="material-icons">work</i></h2>
+          <h5 class="center">Leonardo Crizam</h5>
+
+          <p class="light">CEO - Aluno do 10° Período do Curso de Engenharia Mecânica na UTFPR-Universidade Federal do Paraná - Câmpus Guarapuava. Com 24 anos, nativo de Ignácio Martins-Paraná lida com as competências de Gestão da nossa Startup. </p>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center green-text"><i class="material-icons">developer_mode</i></h2>
+          <h5 class="center">Maria Porcina</h5>
+
+          <p class="light">Desenvolvedora Web - Aluna do 2° Período do Curso de Sistemas para Internet na UTFPR-Universidade Federal do Paraná - Câmpus Guarapuava. Com 18 anos, nativa de Pinhão-Paraná lida com as competências do Desenvolvimento Front/Back-End.</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light" style="color:greenyellow">Unidos por uma oportunidade de fazer mais do que só estudar...</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img id="img-parallax" src="../../resources/Fundos/maria.jpg" alt="Fundo Maria"></div>
+</div>
+
+<div class="container">
+  <div class="section">
+
+    <div class="row">
+      <div class="col s12 center">
+        <h3><i class="mdi-content-send brown-text"></i></h3>
+        <h4>O que nos mantém juntos...</h4>
+        <p id="fatos" class="left-align light"></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <h5 class="header col s12 light"  style="color:greenyellow">Juntos pela força de vontade de fazer sempre mais...</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="../../resources/Fundos/Leonardo.jpeg" alt="Fundo Leonardo"></div>
+</div>
+
+<footer class="page-footer green">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Sobre</h5>
+        <p class="grey-text text-lighten-4">Nós somos uma equipe de estudantes das áreas de Engenharia e Tecnologia com o propósito de trazer inovações para a indsútria utilizando o conhecimento e tecnologias que aprendemos/usamos durante nossa graduação. Somos estudantes da UTFPR-Universidade Tecnológica Federal do Paraná Câmpus Guarapuava e lá estamos encubados.</p>
+
+
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Equipe</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Lander Wilker - Programador</a></li>
+          <br>
+          <li><a class="white-text" href="#!">Leonardo Crizam - CEO</a></li>
+          <br>
+          <li><a class="white-text" href="#!">Maria Porcina - Web Designer</a></li>
+          <br>
+          <li><a class="white-text" href="#!">Jonathan Emanuel - Designer</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Áreas</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Tec. Sistemas para Internet</a></li>
+          <br>
+          <li><a class="white-text" href="#!">Eng. Mecânica</a></li>
+          <br>
+          <li><a class="white-text" href="#!">Publicidade & Propaganda</a></li>
+          <!-- <li><a class="white-text" href="#!">Link 4</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div id="div-since" class="container">
+     <p id="since"><img id="logo" src="../../resources/logo/SERQ.png" alt="SERQ">SERQ-UTFPR-Since 2018 <img id="logo-UTFPR" src="../../resources/logo/UTFPR.png" alt="UTFPR"></p>  
+   </div>
+ </div>
+</footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .icon-block{
+
+  }
+    .icon-block .icone-img{
+
+    }
+      .icon-block .icone-img img{
+        width: 60px;
+        position: absolute;
+        left: 373px;
+        border-radius: 100%;
+        visibility: hidden;
+      }
+      .icon-block .icone-img img.img-lander {
+        visibility: initial;
+      }
+    .icon-block .icone{
+
+    }
+    .icon-block h2.remove {
+      display: hidden;
+    }
+      .icon-block .icone i{
+
+      }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+@media(max-width: 1200px){
+  .icon-block .icone-img img {
+    left: 285px;
+  }
+}
+
+@media only screen and (max-width : 991px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .icon-block .icone-img img {
+    left: 180px;
+  }
+}
+
+@media(max-width: 768px){
+  .icon-block .icone-img img {
+    left: 133px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .icon-block .icone-img img {
+    left: 260px;
+  }
+}
+
+@media(max-width: 525px){
+  .icon-block .icone-img img {
+    left: 224px;
+  }
+}
+
+@media(max-width: 445px){
+  .icon-block .icone-img img {
+    left: 184px;
+  }
+}
+
+@media(max-width: 425px){
+  .icon-block .icone-img img {
+    left: 174px;
+  }
+}
+
+@media(max-width: 320px){
+  .icon-block .icone-img img {
+    left: 121px;
+  }
+}

@@ -1,0 +1,158 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+  #logo
+  {
+    height: 3em; 
+    vertical-align: -10px;   
+  }
+
+  #logo-UTFPR
+  {
+    height: 2.5em;
+    border-left: 5px;
+    vertical-align: -10px;  
+  }
+
+  #since
+  {
+    text-align: center;
+    border-right: 5px;
+  }
+  #div-since
+  {
+    text-align: center;
+  }
+
+  #login-singup{
+  padding-left: 30px;   
+  }
+  
+  .div-titulo{
+    width: 100%;
+    max-width: 205px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+  }
+  .div-titulo:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .6;
+    position: absolute;
+    border-radius: 16px;
+  }
+    .div-titulo .titulo{
+      color: lime;
+      text-align: center;
+      position: relative;
+      margin: 80px auto 29px;
+    }
+
+  .div-subtitulo{
+    width: 100%;
+    max-width: 705px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+  }
+  .div-subtitulo:before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .6;
+    position: absolute;
+    border-radius: 16px;
+    padding: 25px;
+  }
+    .div-subtitulo .subtitulo{
+      color: lime;
+      font-size: 40px;
+      border-radius: 10px;
+      position: relative;
+    }
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  .icon-block{
+
+  }
+    .icon-block .div-icone {
+
+    }
+    .icon-block .div-icone h2{
+
+    }
+    .icon-block .div-icone h2.icone{
+      
+    }
+      .icon-block .div-icone h2 i{
+
+      }
+      .icon-block .div-icone h2 i.icone{
+        
+      }
+    .icon-block .div-icone h5{
+
+    }
+    .icon-block .div-icone p{
+
+    }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
